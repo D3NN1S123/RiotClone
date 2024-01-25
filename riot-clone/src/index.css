@@ -1,0 +1,29 @@
+.background {
+  background: rgb(25, 61, 75);
+  background: radial-gradient(
+    circle,
+    rgba(25, 61, 75, 1) 0%,
+    rgba(0, 0, 0, 1) 76%
+  );
+}
+
+.blueButton {
+  background: rgb(42, 143, 196);
+  background: linear-gradient(
+    126deg,
+    rgba(42, 143, 196, 1) 0%,
+    rgba(13, 192, 223, 1) 100%
+  );
+  transition-duration: 0.3s;
+}
+
+.blueButton:hover {
+  background: rgb(42, 143, 196);
+  background: linear-gradient(
+    126deg,
+    rgba(42, 143, 196, 1) 0%,
+    rgba(12, 196, 226, 1) 31%
+  );
+
+  transition-duration: 0.2s;
+}
